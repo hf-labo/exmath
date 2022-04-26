@@ -29,8 +29,8 @@ const rotate3d = ExMath.rotate3d('x', Math.PI / 2, 0, 100, 0) // [0, 0, 100]
 
 |Function|Parameters|Overview|
 |-|-|-|
-|sum|```values: number[]``` Numeric expressions to be evaluated.|Returns the sum of the specified formulas.|
-|average|```values: number[]``` Numeric expressions to be evaluated.|Returns the average of the specified formulas.|
+|sum|```...values: number[]``` Numeric expressions to be evaluated.|Returns the sum of the specified formulas.|
+|average|```...values: number[]``` Numeric expressions to be evaluated.|Returns the average of the specified formulas.|
 |factorial|```x: number``` A numeric expression.|Returns the factorial of the specified number.|
 |permutation|```n: number``` A numeric expression.<br>```r: number``` A repetition value.|Returns the permutation of the specified number.(nPr)|
 |combination|```n: number``` A numeric expression.<br>```r: number``` A repetition value.|Returns the combination of the specified number.(nCr)|
