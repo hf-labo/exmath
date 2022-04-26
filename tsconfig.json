@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES2015",
+    "outDir": "./lib/",
+    "rootDir": "./src",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "declaration": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules", "./lib", "./__tests__/**/*.test.ts"]
+}
