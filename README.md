@@ -23,7 +23,7 @@ const average = ExMath.average(1, 2, 3, 4) // 2.5
 ## Functions
 
 |Function|Parameters|Overview|
-|-|-|-|-|
+|-|-|-|
 |sum|```values: number[]``` Numeric expressions to be evaluated.|Returns the sum of the specified formulas.|
 |average|```values: number[]``` Numeric expressions to be evaluated.|Returns the average of the specified formulas.|
 |factorial|```x: number``` A numeric expression.|Returns the factorial of the specified number.|
