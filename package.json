@@ -20,7 +20,7 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
-    "prepublish": "cp ./lib/index.js ./ && cp ./lib/index.d.ts ./ && $(npm bin)/tsc",
+    "prepublish": "$(npm bin)/tsc && cp ./lib/index.js ./ && cp ./lib/index.d.ts ./",
     "build": "$(npm bin)/tsc",
     "watch": "$(npm bin)/tsc --watch",
     "test": "$(npm bin)/jest --coverage",

@@ -1,0 +1,10 @@
+src
+lib
+__tests__
+coverage
+jest.config.js
+tsconfig.json
+webpack.config.js
+.eslintrc.js
+.prettierrc
+*.map
