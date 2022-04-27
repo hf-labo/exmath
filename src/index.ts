@@ -436,6 +436,39 @@
       return [x, y, z]
     }
   }
+
+  /**
+   * Returns the distance between two points.
+   * @param ax The X coordinate of point A.
+   * @param ay The Y coordinate of point A.
+   * @param bx The X coordinate of point B.
+   * @param by The Y coordinate of point B.
+   */
+  static distance = (ax: number, ay: number, bx: number, by: number): number => {
+    return Math.sqrt(Math.pow(ax - bx, 2) + Math.pow(ay - by, 2))
+  }
+
+  /**
+   * Returns the dot product of the vector.
+   * @param ax The X coordinate of the vector A.
+   * @param ay The Y coordinate of the vector A.
+   * @param bx The X coordinate of the vector B.
+   * @param by The Y coordinate of the vector B.
+   */
+  static dotProduct = (ax: number, ay: number, bx: number, by: number): number => {
+    return ax * bx + ay * by
+  }
+
+  /**
+   * Returns the cross product of the vector.
+   * @param ax The X coordinate of the vector A.
+   * @param ay The Y coordinate of the vector A.
+   * @param bx The X coordinate of the vector B.
+   * @param by The Y coordinate of the vector B.
+   */
+  static crossProduct = (ax: number, ay: number, bx: number, by: number): number => {
+    return Math.abs(ax * by - ay * bx)
+  }
 }
 
 export default ExMath

@@ -74,5 +74,8 @@ describe('Extension Math Test', () => {
     checkAry(ExMath.rotate3d('y', Math.PI / 2, 100, 100, 200, 100, 100, 100), [200, 100, 100])
     checkAry(ExMath.rotate3d('z', Math.PI / 2, 100, 0, 0), [0, 100, 0])
     checkAry(ExMath.rotate3d('z', Math.PI / 2, 200, 100, 100, 100, 100, 100), [100, 200, 100])
+    expect(ExMath.distance(3, 0, 0, 4)).toBe(5)
+    expect(ExMath.dotProduct(5, 0, 4, 3)).toBe(20)
+    expect(ExMath.crossProduct(4, 1, 1, 3)).toBe(11)
   })
 })
